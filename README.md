@@ -1,0 +1,89 @@
+Absolutely! Here’s a **README.md** for your `codename.py` project, in a friendly style that matches the tool’s playful and practical spirit:
+
+---
+
+# 🚀 codename.py — Random Project Codename Generator
+
+**Generate memorable, fun codenames for your projects, servers, releases, or teams.**
+Choose your style: classic Adjective Noun, Ubuntu animal, or military “Operation”–all in one simple Python script.
+
+---
+
+## ✨ Features
+
+* **Adjective Noun combos:** *Clever Otter, Wandering Nebula, Ancient Lantern...*
+* **Ubuntu style:** Alliterative, animal-inspired names (e.g. *Brilliant Badger, Wily Wombat*)
+* **Military style:** “Operation” codenames (*Operation Silent Arrow*)
+* **Single noun mode:** Just a big, bold word
+* **JSON output:** For piping into other tools
+* **Custom wordlists:** Just edit `adjectives.txt`, `nouns.txt`, or add `animals.txt`
+* **Batch output:** Generate lots of names at once (`--count`)
+* **No dependencies:** Pure Python, runs anywhere
+
+---
+
+## 🛠 Usage
+
+```sh
+python3 codename.py                   # Random "Adjective Noun" pair
+python3 codename.py --ubuntu          # Ubuntu-style: adj & animal share first letter
+python3 codename.py --military        # Military-style: Operation [Adj] Noun
+python3 codename.py --noun            # Just a noun
+python3 codename.py --json            # Output JSON-formatted result
+python3 codename.py --count 5         # Get five names at once
+```
+
+---
+
+## 🔗 Examples
+
+```sh
+$ python3 codename.py
+Glorious Turnip
+
+$ python3 codename.py --ubuntu
+Jumpy Jackal
+
+$ python3 codename.py --military
+Operation Phantom Ocelot
+
+$ python3 codename.py --noun
+Nebula
+
+$ python3 codename.py --json
+{"adjective": "quiet", "noun": "mirage"}
+```
+
+---
+
+## 📦 Wordlists
+
+* **adjectives.txt** — Adjectives, one per line (required)
+* **nouns.txt** — Nouns, one per line (required)
+* **animals.txt** — Animal names (optional, for Ubuntu mode)
+
+*The script expects these files to be next to `codename.py`. Add your own words to customize!*
+
+---
+
+## 🛡 License
+
+MIT License — see [LICENSE](./LICENSE)
+
+---
+
+## 📝 About
+
+**codename.py** was written for fun and utility by [Kevin Joiner](https://github.com/your-github) in 2025.
+Why settle for “project2” or “server-b” when you could have *Gallant Phoenix* or *Operation Turquoise Spider*?
+
+Pull requests, extra wordlists, and creative forks welcome!
+
+---
+
+*May your codenames always be memorable and mildly mysterious.*
+
+---
+
+Let me know if you want any tweaks, badges, or even a project icon!
+
