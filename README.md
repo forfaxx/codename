@@ -20,6 +20,11 @@ Choose your style: classic Adjective Noun, Ubuntu animal, or military “Operati
 * **Batch output:** Generate lots of names at once (`--count`)
 * **No dependencies:** Pure Python, runs anywhere
 
+## Inspiration
+
+What started as a silly text munging exercise has proven to be a happy little app that I run all the time just for fun. With the --count argument, you can run it as many times as you like. Something it spits out is bound to be good. One note however, the wordlists are taken from the standard system dictionary and may combine offensive words. Please be aware that any such results are not by design.
+
+
 ---
 
 ## 🛠 Usage
@@ -75,7 +80,7 @@ MIT License — see [LICENSE](./LICENSE)
 ## 📝 About
 
 **codename.py** was written for fun and utility by [Kevin Joiner](https://github.com/your-github) in 2025.
-Why settle for “project2” or “server-b” when you could have *Gallant Phoenix* or *Operation Turquoise Spider*?
+Why settle for generic names like “project2” or “server-b” when you could have *Gallant Phoenix* or *Operation Turquoise Spider*?
 
 Pull requests, extra wordlists, and creative forks welcome!
 
@@ -83,7 +88,4 @@ Pull requests, extra wordlists, and creative forks welcome!
 
 *May your codenames always be memorable and mildly mysterious.*
 
----
-
-Let me know if you want any tweaks, badges, or even a project icon!
 
