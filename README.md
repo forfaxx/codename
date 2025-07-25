@@ -23,10 +23,6 @@ What started as a silly text munging exercise has proven to be a happy little ap
 With the --count argument, you can run it as many times as you like. It's bound to spit out something good.
 
 
-
-One note however, the wordlists are taken from the standard system dictionary and may combine offensive words. Please be aware that any such results are not by design.
-
-
 ---
 
 ## 🛠 Usage
