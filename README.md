@@ -1,6 +1,3 @@
-Absolutely! Here’s a **README.md** for your `codename.py` project, in a friendly style that matches the tool’s playful and practical spirit:
-
----
 
 # 🚀 codename.py — Random Project Codename Generator
 
