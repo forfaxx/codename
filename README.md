@@ -19,7 +19,12 @@ Choose your style: classic Adjective Noun, Ubuntu animal, or military “Operati
 
 ## Inspiration
 
-What started as a silly text munging exercise has proven to be a happy little app that I run all the time just for fun. With the --count argument, you can run it as many times as you like. Something it spits out is bound to be good. One note however, the wordlists are taken from the standard system dictionary and may combine offensive words. Please be aware that any such results are not by design.
+What started as a silly text munging exercise has proven to be a happy little app that I run all the time just for fun. 
+With the --count argument, you can run it as many times as you like. It's bound to spit out something good.
+
+
+
+One note however, the wordlists are taken from the standard system dictionary and may combine offensive words. Please be aware that any such results are not by design.
 
 
 ---
@@ -34,6 +39,8 @@ python3 codename.py --noun            # Just a noun
 python3 codename.py --json            # Output JSON-formatted result
 python3 codename.py --count 5         # Get five names at once
 ```
+\* **NOTE** The wordlists in use by codename are taken from the system dictionary and may potentially create offensive
+combinations. In other words, it's exactly as offensive as the dictionary! 
 
 ---
 
