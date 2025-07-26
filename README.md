@@ -6,7 +6,7 @@ Choose your style: classic Adjective Noun, Ubuntu animal, or military “Operati
 
 ---
 
-## ✨ Features
+## Features
 
 * **Adjective Noun combos:** *Clever Otter, Wandering Nebula, Ancient Lantern...*
 * **Ubuntu style:** Alliterative, animal-inspired names (e.g. *Brilliant Badger, Wily Wombat*)
@@ -25,7 +25,7 @@ With the --count argument, you can run it as many times as you like. It's bound 
 
 ---
 
-## 🛠 Usage
+## Usage
 
 ```sh
 python3 codename.py                   # Random "Adjective Noun" pair
