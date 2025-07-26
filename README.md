@@ -1,5 +1,5 @@
 
-# 🚀 codename.py — Random Project Codename Generator
+# codename.py — Random Project Codename Generator
 
 **Generate memorable, fun codenames for your projects, servers, releases, or teams.**
 Choose your style: classic Adjective Noun, Ubuntu animal, or military “Operation”–all in one simple Python script.
@@ -40,7 +40,7 @@ combinations. In other words, it's exactly as offensive as the dictionary!
 
 ---
 
-## 🔗 Examples
+## Examples
 
 ```sh
 $ python3 codename.py
@@ -61,7 +61,7 @@ $ python3 codename.py --json
 
 ---
 
-## 📦 Wordlists
+## Wordlists
 
 * **adjectives.txt** — Adjectives, one per line (required)
 * **nouns.txt** — Nouns, one per line (required)
@@ -70,7 +70,7 @@ $ python3 codename.py --json
 *The script expects these files to be next to `codename.py`. Add your own words to customize!*
 
 
-## 🛠 Wordlist Generators (for the curious)
+### Wordlist Generators (for the curious)
 
 Codename ships with ready‑to‑use `adjectives.txt`, `nouns.txt`, and `animals.txt`,  
 but if you want to see how they were built (or rebuild them yourself), check out the scripts in [`/scripts`](scripts):
@@ -85,13 +85,13 @@ They’re **developer tools** — not needed to run Codename — and they’ll p
 
 ---
 
-## 🛡 License
+## License
 
 MIT License — see [LICENSE](./LICENSE)
 
 ---
 
-## 📝 About
+## About
 
 **codename.py** was written for fun and utility by [Kevin Joiner](https://github.com/your-github) in 2025.
 Why settle for generic names like “project2” or “server-b” when you could have *Gallant Phoenix* or *Operation Turquoise Spider*?
@@ -101,5 +101,4 @@ Pull requests, extra wordlists, and creative forks welcome!
 ---
 
 *May your codenames always be memorable and mildly mysterious.*
-
 
