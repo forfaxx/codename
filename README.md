@@ -20,7 +20,7 @@ Choose your style: classic Adjective Noun, Ubuntu animal, or military “Operati
 ## Inspiration
 
 What started as a silly text munging exercise has proven to be a happy little app that I run all the time just for fun. 
-With the --count argument, you can run it as many times as you like. It's bound to spit out something good.
+With the --count argument, you can run it as many times as you like. It's bound to spit out something good eventually.
 
 
 ---
@@ -68,6 +68,20 @@ $ python3 codename.py --json
 * **animals.txt** — Animal names (optional, for Ubuntu mode)
 
 *The script expects these files to be next to `codename.py`. Add your own words to customize!*
+
+
+## 🛠 Wordlist Generators (for the curious)
+
+Codename ships with ready‑to‑use `adjectives.txt`, `nouns.txt`, and `animals.txt`,  
+but if you want to see how they were built (or rebuild them yourself), check out the scripts in [`/scripts`](scripts):
+
+- `generate_wordlists.py` → builds adjectives and nouns  
+- `generate_animals.py` → builds the animal list for Ubuntu‑style names  
+
+They’re **developer tools** — not needed to run Codename — and they’ll prompt before overwriting the included files.  
+
+👉 Read more about how they work in [**Operation Wordlists**](https://adminjitsu.com/posts/operation-wordlists/) — a deep dive into using Python + NLTK to craft the lists behind the names.
+
 
 ---
 
